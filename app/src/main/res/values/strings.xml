@@ -1,0 +1,68 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">경기도 의료 정보 시스템</string>
+    <string-array name="menus_array">
+        <item>홈</item>
+        <item>로그인</item>
+        <item>마이페이지</item>
+        <item>로그아웃</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+
+    <string name="map_view_demo_title">MapView</string>
+
+    <string name="map_view_demo_desc">기본 맵뷰, 타일 종류</string>
+
+    <string name="marker_demo_title">Markers</string>
+
+    <string name="marker_demo_desc">기본 마커, 커스텀 마커, 마커 동작</string>
+
+    <string name="polygon_demo_title">Polyline, Polygon</string>
+
+    <string name="polygon_demo_desc">지도 위 그래픽 요소 그리기</string>
+
+    <string name="location_demo_title">Location</string>
+
+    <string name="location_demo_desc">위치 관련 API</string>
+
+    <string name="camera_demo_title">Camera</string>
+
+    <string name="camera_demo_desc">카메라 관련 API</string>
+
+    <string name="events_demo_title">Events</string>
+
+    <string name="events_demo_desc">지도 이벤트</string>
+
+    <string name="search_demo_title">Search</string>
+
+    <string name="search_demo_desc">키워드 장소검색</string>
+
+    <string name="no_demos">No demos</string>
+
+    <string name="press_menu">Menu 버튼을 누르세요.</string>
+
+    <string name="demo_events_help">지도뷰를 탭, 길게 탭, 드래그 하세요.</string>
+
+    <string name="go_to_hannam">Go to Hannam</string>
+
+    <string name="go_to_pangyo">Go to Pangyo</string>
+</resources>

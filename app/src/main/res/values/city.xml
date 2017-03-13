@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>수원시</item>
+        <item>안양시</item>
+        <item>오산시</item>
+        <item>화성시</item>
+    </string-array>
+</resources>

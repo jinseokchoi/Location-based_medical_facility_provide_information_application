@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/uihome">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/btn_search_hos"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.46"
+            android:background="#274a5d"
+            android:text="병원찾기"
+            android:drawableTop="@drawable/hospital"
+            android:textColor="#fdfdfe" />
+        <Button
+            android:id="@+id/btn_search_pharm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약국찾기"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:background="#274a5d"
+            android:drawableTop="@drawable/aed"
+            android:textColor="#fdfdfe" />
+        <Button
+            android:id="@+id/btn_search_emer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="응급실찾기"
+            android:layout_weight="1"
+            android:background="#274a5d"
+            android:drawableTop="@drawable/emergency"
+            android:textColor="#fdfdfe" />
+
+        <Button
+            android:id="@+id/btn_search_cardi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제세동기"
+            android:layout_weight="1"
+            android:background="#274a5d"
+            android:drawableTop="@drawable/defibrillator"
+            android:textColor="#fdfdfe" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_location_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/redcross"
+        android:text="위치기반검색"
+        android:textStyle="bold"
+        android:textColor="#fdfdfe"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginStart="98dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_search_demo"
+        android:text="test"/>
+
+</RelativeLayout>

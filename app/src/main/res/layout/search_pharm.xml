@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basebackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="약국 찾기"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#3a78e4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/pharm_choice"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/city">
+        </Spinner>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/P_search"
+            android:textColor="#000000"
+            android:text="검색"
+            android:background="@drawable/btn_dialog" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:dividerHeight="1dp"
+        android:divider="#ffffff"
+        android:id="@+id/P_listView" />
+
+    <!--<TableRow-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#000000"-->
+    <!--android:padding="1dp"-->
+    <!--&gt;-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="1dp"-->
+    <!--android:id="@+id/location"-->
+    <!--android:background="#ffffff"-->
+    <!--android:textSize="12sp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="1dp"-->
+    <!--android:id="@+id/name"-->
+    <!--android:background="#ffffff"-->
+    <!--android:textSize="12sp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="1dp"-->
+    <!--android:id="@+id/tel"-->
+    <!--android:background="#ffffff"-->
+    <!--android:textSize="12sp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--/>-->
+
+    <!--</TableRow>-->
+
+
+</LinearLayout>

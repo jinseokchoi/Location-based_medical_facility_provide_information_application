@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/select_comment"
+            android:text = "클릭한 장소를 찾아갈 교통수단을 선택하세요"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:gravity="center">
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/foot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="도보"/>
+            <RadioButton
+                android:id="@+id/publictransit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="대중교통"/>
+            <RadioButton
+                android:id="@+id/car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="자동차"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10km 이내는 도보 검색이 어렵습니다"/>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_select_go"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="검색"
+            android:background="@drawable/btn_dialog"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_select_close"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="취소"
+            android:background="@drawable/btn_dialog"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+</TableLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="30dp" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_vertical" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="아이디"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:baselineAligned="true" android:weightSum="1">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:hint="아이디 입력" android:background="@drawable/round_edittext" android:layout_weight="0.7"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="중복 확인" android:layout_weight="0.3" android:layout_marginLeft="10dp" android:textSize="15sp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="패스워드"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:hint="패스워드 입력" android:background="@drawable/round_edittext" android:inputType="textPassword"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="패스워드 확인"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:hint="패스워드 확인" android:background="@drawable/round_edittext" android:inputType="textPassword"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="아이디"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textColor="#000000" android:text="유저 아이디"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_vertical" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="이름"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:hint="이름 입력" android:background="@drawable/round_edittext"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_vertical" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="생일"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1">
+
+    <EditText android:layout_height="40dp" android:layout_width="200dp" android:hint="생년월일" android:background="@drawable/round_edittext" android:layout_weight="0.7" android:singleLine="true" android:id="@+id/mb_date_display"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:background="@drawable/btn_dialog" android:layout_marginLeft="20dp" android:id="@+id/mb_date" android:src="@drawable/calendar" android:layout_marginRight="20dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_vertical" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="이메일"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:background="@drawable/round_edittext" android:layout_weight="0.45"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_horizontal" android:textStyle="bold" android:textColor="#000000" android:text="\@" android:layout_weight="0.1"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:background="@drawable/round_edittext" android:layout_weight="0.45"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_vertical" android:paddingRight="5dp" android:paddingBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:textStyle="bold" android:textColor="#000000" android:text="휴대폰 번호"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="0dp" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:hint="010" android:background="@drawable/round_edittext" android:layout_weight="0.3" android:inputType="number"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_horizontal" android:textStyle="bold" android:textColor="#000000" android:text="-" android:layout_weight="0.05"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:background="@drawable/round_edittext" android:layout_weight="0.3" android:inputType="number"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_horizontal" android:textStyle="bold" android:textColor="#000000" android:text="-" android:layout_weight="0.05"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="5dp" android:textStyle="bold" android:textColor="#000000" android:paddingTop="5dp" android:paddingLeft="10dp" android:background="@drawable/round_edittext" android:layout_weight="0.3" android:inputType="number"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingRight="5dp" android:textStyle="bold" android:textColor="#FFFFFF" android:text="가입" android:textSize="23sp" android:id="@+id/signup_btn" android:layout_marginTop="10dp"/>
+
+</LinearLayout>

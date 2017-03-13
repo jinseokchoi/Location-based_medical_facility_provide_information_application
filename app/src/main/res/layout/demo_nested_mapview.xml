@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/basebackground"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layout_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/sp_category"
+            android:background="@android:color/transparent">
+        </Spinner>
+        <Spinner
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/sp_distance"
+        android:background="@android:color/transparent">
+
+
+        </Spinner>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:id="@+id/sp_department"
+            android:background="@android:color/transparent">
+        </Spinner>
+        <Button
+            android:background="#996f6f6f"
+            android:layout_height="wrap_content"
+            android:layout_width="62dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/btn_current"
+            android:text="검색"/>
+    </LinearLayout>
+
+
+    <net.daum.mf.map.api.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#770000ff"
+        android:textColor="#fff"
+        android:padding="3dp"
+        android:gravity="center"
+        android:text="@string/press_menu"/>-->
+
+</LinearLayout>

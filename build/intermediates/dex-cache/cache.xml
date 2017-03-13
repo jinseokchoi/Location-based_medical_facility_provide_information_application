@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="66c7befc6acb32589a74a5e1e4e613ff69348bd4">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5e365cfd78db8d035dfbc1202d034546fff12b53\classes.dex" />
+    </item>
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="cf8518f7c9b8e62e70c12cc0546925f190da2563">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3ff819fec3bfe819201cb18b298d7301c59ed490\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Jinseok\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_1ca5a397a83edb83f5f4f1b6dcc5a13497294537\classes.dex" />
+    </item>
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_9698620caf717dba25ec7be45ee38cbd265dda5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_7247ad554b1a293a35d67c3160f9b94d0bbc1ed5\classes.dex" />
+    </item>
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_784bbfc5a62c58b6dc8d8a851f45303705ef8882\classes.dex" />
+    </item>
+    <item
+        jar="C:\JinseokCoding\Android\Hos_app\app\libs\libDaumMapAndroid.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="b365841bba8bc2d592e4b22008885a6f0cd1c77d">
+        <dex dex="C:\JinseokCoding\Android\Hos_app\app\build\intermediates\transforms\dex\debug\folders\1000\2\libDaumMapAndroid_b3ae9889c94b39bc22af88496254f832b5aa4959\classes.dex" />
+    </item>
+
+</items>
